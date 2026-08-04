@@ -1,0 +1,218 @@
+/* From Neo4j Documentation UI */
+.navbar-brand {
+  padding-left: 1rem;
+}
+
+.navbar-brand .navbar-item {
+  color:#fff
+}
+.navbar-brand .navbar-item:first-child {
+  -ms-flex-item-align:center;
+  align-self:center;
+  padding:0;
+  font-size:1.22222rem;
+  -ms-flex-wrap:wrap;
+  flex-wrap:wrap;
+  line-height:1
+}
+.navbar-brand .navbar-item:first-child a {
+  color:inherit;
+  word-wrap:normal
+}
+
+
+
+/* From Asciidoctor Docs UI */
+
+footer.footer {
+  background-color:#191919;
+  color:#bababa;
+  display:flex;
+  flex-direction:column;
+  font-size:.77778rem;
+  line-height:1.6;
+  padding:2rem 1rem
+}
+.footer p {
+  margin:0
+}
+.footer a {
+  color:inherit;
+  text-decoration:none
+}
+.footer a:hover {
+  color:#fff;
+}
+.footer img {
+  vertical-align:middle
+}
+.footer p+p {
+  margin-top:1em
+}
+.footer-main {
+  flex-direction:column
+}
+.footer-brand,
+.footer-main {
+  align-items:center;
+  display:flex
+}
+.footer-brand {
+  margin:0
+}
+.footer-brand .logo {
+  display:flex
+}
+.footer-brand a,
+.footer-brand figcaption {
+  color:#fff;
+}
+.footer-brand figcaption {
+  font-family:Comfortaa,sans-serif;
+  font-size:2rem;
+  letter-spacing:-.02em;
+  line-height:1;
+  position:relative;
+  top:.06em
+}
+.footer-brand .logo+figcaption {
+  margin-left:1rem
+}
+.footer-brand img {
+  height:2.5rem;
+}
+.footer-brand-links {
+  display:flex;
+  flex-wrap:wrap;
+  font-size:.9rem;
+  justify-content:center;
+  list-style:none;
+  margin:2rem 0 0;
+  padding:0
+}
+.footer-brand-links li+li::before {
+  content:"|";
+  padding:0 .5em
+}
+.footer-brand-follow {
+  font-size:1.33333rem;
+  font-weight:600;
+  line-height:1
+}
+.footer p.footer-brand-follow {
+  margin-top:1.25rem
+}
+.footer-brand-follow .logo {
+  width:1.55556rem;
+}
+.footer-brand-follow .handle {
+  padding:0 0 .1em .5ch
+}
+.footer-legal {
+  margin-top:1.5rem
+}
+.footer-legal,
+.footer-thanks {
+  text-align:center
+}
+.footer-thanks .badges {
+  align-items:center;
+  display:inline-flex;
+  line-height:1
+}
+.footer-thanks .badges a+a {
+  margin-left:5px
+}
+@media screen and (min-width:1024px) {
+  footer.footer {
+    flex-direction:row;
+    position:relative;
+    z-index:5;
+  }
+  .footer-legal {
+    margin-top:0;
+    padding:0 1.5rem;
+    text-align:left;
+    width:40%
+  }
+  .footer-main,
+  .footer-thanks {
+    width:30%
+  }
+  .footer-thanks {
+    text-align:right
+  }
+  .footer-thanks .badges {
+    display:flex;
+    justify-content:flex-end
+  }
+}
+
+.doc .imageblock {
+  margin-left: 2rem;
+}
+
+.doc .dlist dt {
+  font-style:normal;
+}
+
+.folderpath {
+  text-decoration: underline;
+}
+
+.doc .sidebarblock {
+  padding: 0.75rem 0.75rem 0.25rem 0.75rem;
+}
+
+.doc .sidebarblock > .content > .title {
+  margin-bottom: 0.5rem;
+}
+
+.doc .admonitionblock .admonitionheading p {
+    font-size: 1.2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.doc .tableblock caption {
+  font-style: normal;
+}
+
+.doc a.external {
+  color: #933
+}
+
+.doc h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.doc h1.sect0 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.doc h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.doc h3 {
+  font-size: 2.0rem;
+  font-weight: 600;
+}
+
+.doc h4 {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.doc h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.doc h6 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}

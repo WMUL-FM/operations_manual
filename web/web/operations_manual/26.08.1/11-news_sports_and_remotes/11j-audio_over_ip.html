@@ -1,0 +1,1386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>11.J. Audio over IP (Linphone) :: WMUL-FM Operations Manual</title>
+    <meta name="generator" content="Antora 3.1.14">
+    <link rel="stylesheet" href="../../../_/css/site.css">
+    <link rel="stylesheet" href="../../../_/css/wmul.css">
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="../../..">WMUL-FM Operations Manual</a>
+      <button class="navbar-burger" aria-controls="topbar-nav" aria-expanded="false" aria-label="Toggle main menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">WMUL-FM</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://www.marshall.edu/wmul/">Main Website</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Manuals</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Operations Manual</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="#">Download</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="operations_manual" data-version="26.08.1">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="../01-introduction_volume_i/01-introduction_volume_i.html">WMUL-FM Operations Manual</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../01-introduction_volume_i/01-introduction_volume_i.html">1. Introduction Volume I / A. Using This Volume</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../01-introduction_volume_i/01b-using_this_manual.html">1.B. Using This Manual</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../01-introduction_volume_i/01c-description.html">1.C. WMUL Radio Description</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../01-introduction_volume_i/01d-floor_plan.html">1.D. Floor Plan of WMUL-FM</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../01-introduction_volume_i/01e-station_philosophy.html">1.E. WMUL-FM Station Philosophy</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../01-introduction_volume_i/01f-dr_baileys_welcome_letter.html">1.F. Dr. Bailey&#8217;s Welcome Letter</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../01-introduction_volume_i/01g-greetings_from_the_student_board_of_directors.html">1.G. Greetings From the Student Board of Directors</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../02-station_organization/02-station_organization.html">2. Station Organization / A. Policies for Staff Selection</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../02-station_organization/02b-recruitment_of_new_staff_members.html">2.B. Recruitment of New Staff Members</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../02-station_organization/02c-volunteer_staff_information_sheet.html">2.C. Volunteer Staff Information Sheet</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../02-station_organization/02d-station_hierarchy.html">2.D. Station Hierarchy</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../02-station_organization/02e-staff_recognition.html">2.E. Staff Recognition</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../03-off_air_policies/03-off_air_policies.html">3. Off-Air Policies / A. Behavioral Policies</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../03-off_air_policies/03b-staff_safety_and_station_security.html">3.B. Staff Safety and Station Security</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../03-off_air_policies/03c-policies_for_use_of_station_property.html">3.C. Policies for Use of Station Property</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../03-off_air_policies/03d-production_studio_use_policies_and_guidelines.html">3.D. Production Studio Use Policies and Guidelines</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../03-off_air_policies/03e-remote_broadcast_policy.html">3.E. Remote Broadcast Policy</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../03-off_air_policies/03f-station_use_policies.html">3.F. Station Use Policy</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../03-off_air_policies/03g-social_media_policies.html">3.G. Social Media Policy</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../04-legal_policies/04-legal_policies.html">4. Legal Policies / A. You, WMUL-FM, and the FCC</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../04-legal_policies/04b-legal_compliance_policies.html">4.B. Legal Compliance Policies</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../04-legal_policies/04c-inappropriate_program_material_policy.html">4.C. Inappropriate Program Material Policy</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../04-legal_policies/04d-emergency_alert_system.html">4.D. Emergency Alert System</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../04-legal_policies/04e-wmul_fms_online_public_inspection_file.html">4.E. WMUL-FM&#8217;s Online Public Inspection File</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../04-legal_policies/04f-letter_designating_the_chief_operator.html">4.F. Letter Designating the Chief Operator</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../05-on_air_policies/05-on_air_policies.html">5. On-Air Policies / A. Professionalism Policy</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../05-on_air_policies/05b-guidelines_for_music_formats.html">5.B. Guidelines for Music Formats</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../05-on_air_policies/05c-program_policies.html">5.C. Program Policies</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../05-on_air_policies/05d-miscellaneous_policies.html">5.D. Miscellaneous Policies</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../05-on_air_policies/05e-voice_tracking_policy.html">5.E. Voice-Tracking Policy</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../05-on_air_policies/05f-policies_for_non_safety_related_emergencies.html">5.F. Policies for Non-Safety-Related Emergencies</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../06-introduction_volume_ii/06-introduction_volume_ii.html">6. Introduction to Volume II / A. Using This Volume</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../07-introduction_to_station_operations/07-introduction_to_station_operations.html">7. Introduction to Station Operations / A. A Brief Introduction to Policies</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../07-introduction_to_station_operations/07b-introduction_to_the_equipment.html">7.B. Introduction to the Equipment</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../07-introduction_to_station_operations/07c-elements_of_station_wmul_fm.html">7.C. Elements of Station WMUL-FM</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../07-introduction_to_station_operations/07d-accessing_the_station_outside_normal_business_hours.html">7.D. Accessing the Station Outside Normal Business Hours</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../07-introduction_to_station_operations/07e-emergency_alert_system.html">7.E. Emergency Alert System</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../07-introduction_to_station_operations/07f-starting_and_ending_your_shift.html">7.F. Starting and Ending Your Shift</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../07-introduction_to_station_operations/07g-common_problems.html">7.G. Common Problems</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../08-wmul_fms_operator_logs/08-wmul_fms_operator_logs.html">8. WMUL-FM&#8217;s Operator Logs</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../08-wmul_fms_operator_logs/08a-keeping_the_logs_at_wmul_fm.html">8.A. Keeping the Logs at WMUL-FM</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../08-wmul_fms_operator_logs/08b-the_programs_tab.html">8.B. The Programs Tab</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../08-wmul_fms_operator_logs/08c-the_meter_readings_tab.html">8.C. The Meter Readings Tab</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../08-wmul_fms_operator_logs/08d-the_eas_receiver_check_tab.html">8.D. The EAS Receiver Check Tab</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../08-wmul_fms_operator_logs/08e-the_sign_off_tab.html">8.E. The Sign Off Tab</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../08-wmul_fms_operator_logs/08f-logging_quick_reference.html">8.F. Logging Quick Reference</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../08-wmul_fms_operator_logs/08g-troubleshooting_the_logs.html">8.G. Troubleshooting the Logs</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../08-wmul_fms_operator_logs/08h-logging_voice_tracked_shows.html">8.H. Logging Voice-Tracked Shows</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../08-wmul_fms_operator_logs/08i-music_logs.html">8.I. Music Logs</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../08-wmul_fms_operator_logs/08j-log_error_correction_policy.html">8.J. Log Error Correction Policy</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../09-station_operations/09-station_operations.html">9. Station Operations / A. AudioArts D-75 Audio Console</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../09-station_operations/09b-studio_a_tour.html">9.B. Studio A Tour</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../09-station_operations/09c-on_air_microphone.html">9.C. On-Air Microphone</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../09-station_operations/09d-getting_the_weather.html">9.D. Getting the Weather</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../09-station_operations/09e-modulation_monitor.html">9.E. Modulation Monitor</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../10-auxiliary_studio_equipment/10-auxiliary_studio_equipment.html">10. Auxiliary Studio Equipment / A. Digital Router</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../10-auxiliary_studio_equipment/10b-patch_panel.html">10.B. Patch Panel</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../10-auxiliary_studio_equipment/10c-webcasting.html">10.C. Webcasting</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../10-auxiliary_studio_equipment/10d-broadcast_delay_box.html">10.D. Broadcast Delay Box</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../10-auxiliary_studio_equipment/10e-using_the_flash_recorder_in_studio_a.html">10.E. Using the Flash Recorder in Studio A</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../10-auxiliary_studio_equipment/10f-using_the_skimmer.html">10.F. Using the Skimmer</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../10-auxiliary_studio_equipment/10g-turntable.html">10.G. Turntable</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../10-auxiliary_studio_equipment/10h-cd_players.html">10.H. CD Players</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../10-auxiliary_studio_equipment/10i-signing_the_station_on_and_off_the_air.html">10.I. Signing the Station On and Off the Air</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="11-news_sports_and_remotes.html">11. News, Sports, and Remotes</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="11a-producing_a_talk_show_or_sportscast.html">11.A. Producing a Talk Show or Sportscast</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="11b-producing_newscenter_88.html">11.B. Producing Newscenter 88</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="11c-the_public_affairs_table.html">11.C. The Public Affairs Table</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="11d-producing_a_program_in_the_newscenter.html">11.D. Board-Operating (Producing) a Program in the Newscenter</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="11e-producing_a_program_in_studio_d.html">11.E. Board-Operating (Producing) a Program in Studio D</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="11f-introduction_to_telephone_like_interfaces.html">11.F. Introduction to Telephone-Like Interfaces</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="11g-gentner_dh22_digital_hybrid.html">11.G. Gentner DH22 Digital Hybrid</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="11h-comrex_access.html">11.H. Comrex Access</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="11i-comrex_opal.html">11.I. Comrex Opal</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="2">
+    <a class="nav-link" href="11j-audio_over_ip.html">11.J. Audio Over IP</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="11k-always_on_remote_sources.html">11.K. "Always-On" Remote Sources</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../12-technical_details/12-technical_details.html">12. Technical Details / A. Transmitter Remote Control</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../12-technical_details/12b-emergency_alert_system.html"> 12.B. Emergency Alert System (EAS)</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../12-technical_details/12c-digital_router.html">12.C. Digital Router - Under the Hood</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../12-technical_details/12d-the_air_chain.html">12.D. The Air Chain</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../12-technical_details/12e-the_transmitter.html">12.E. The Transmitter</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../12-technical_details/12f-antenna.html">12.F. The Antenna</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../13-introduction_volume_iii/13-introduction_volume_iii.html">13. Introduction to Volume III / A. Using This Volume</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../14-computer_playback_on_air/14-computer_playback_on_air.html">14. Computer Playback (Automation) - On-Air Operations</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../14-computer_playback_on_air/14a-rd_airplay_overview.html">14.A. RD AirPlay Overview</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../14-computer_playback_on_air/14b-rd_airplay_top_bar.html">14.B. RD Airplay - The Top Bar</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../14-computer_playback_on_air/14c-rd_airplay_main_log.html">14.C. RD Airplay - The Main Log</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../14-computer_playback_on_air/14d-editing_the_log_and_sound_panel.html">14.D. Editing the Log and Sound Panel</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../14-computer_playback_on_air/14e-organizing_the_library.html">14.E. Organizing the Library - Carts, Cuts, Cart Numbers, Groups, and Scheduler Codes</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../14-computer_playback_on_air/14f.rd_library_searching.html">14.F. RD Library (Searching)</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../14-computer_playback_on_air/14g-planning_a_dj_shift_to_the_clock.html">14.G. Planning a DJ Shift to the Clock</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../14-computer_playback_on_air/14h-previewing_audio_before_playback.html">14.H. Previewing Audio Before Playback</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../14-computer_playback_on_air/14i-list_of_groups.html">14.I. List of Groups</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../14-computer_playback_on_air/14j-list_of_scheduler_codes.html">14.J. List of Scheduler Codes</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../14-computer_playback_on_air/14k-linux_mint_and_xfce.html">14.K. Linux Mint 21 and Xfce</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../15-computer_playback_intermediate/-computer_playback_intermediate.html">15. Computer Playback (Automation) - Intermediate Operations / 15.A. The Sound Panel and RD Panel</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../15-computer_playback_intermediate/b-timed_events.html">15.B. Timed Events</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../15-computer_playback_intermediate/c-jumping_the_log.html">15.C. Jumping the Log</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../15-computer_playback_intermediate/d-cart_types.html">15.D. Cart Types</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../15-computer_playback_intermediate/e-transitions.html">15.E. Transitions</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../15-computer_playback_intermediate/f-restarting_the_software.html">15.F. Restarting the Software</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../15-computer_playback_intermediate/g-saving_and_refreshing_the_log.html">15.G. Saving and Refreshing the Log</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../16-rd_log_edit/-rd_log_edit.html">16. RD Log Edit / A. Overview</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../16-rd_log_edit/b-types_of_logs.html">16.B. Types of Logs</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../16-rd_log_edit/c-creating_and_editing_logs.html">16.C. Creating and Editing the Logs</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../16-rd_log_edit/d-voice_tracking.html">16.D. Voice-Tracking</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../17-rd_library_managing/-rd_library_managing.html">17. RD Library - Managing / A. Editing a Cart</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../17-rd_library_managing/b-carts_with_multiple_cuts.html">17.B. Carts with Multiple Cuts</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../17-rd_library_managing/c-restricting_playback.html">17.C. Restricting Playback</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../17-rd_library_managing/d-cart_markers_explained.html">17.D. Cart Markers Explained</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../17-rd_library_managing/e-adding_moving_and_removing_audio.html">17.E. Adding, Moving, and Removing Audio</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../17-rd_library_managing/f-rd_library_reports.html">17.F. RD Library Reports</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../18-ingesting_new_audio/-ingesting_new_audio.html">18. Ingesting New Audio with Adobe Audition / A. Audition 2024+</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../18-ingesting_new_audio/b-audition_3.html">18.B. Audition 3</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../18-ingesting_new_audio/c-rejected_files.html">18.C. Rejected Files</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../18-ingesting_new_audio/d-special_importers.html">18.D. Special Importers</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../c-copyright-acknowledgement/c-copyright-acknowledgement.html">C. Copyright Acknowledgements</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../g-glossary/g-glossary.html">G. Glossary</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">WMUL-FM Operations Manual</span>
+    <span class="version">26.08.1</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <div class="title"><a href="../01-introduction_volume_i/01-introduction_volume_i.html">WMUL-FM Operations Manual</a></div>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../01-introduction_volume_i/01-introduction_volume_i.html">26.08.1</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../01-introduction_volume_i/01-introduction_volume_i.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../01-introduction_volume_i/01-introduction_volume_i.html">WMUL-FM Operations Manual</a></li>
+    <li><a href="11-news_sports_and_remotes.html">11. News, Sports, and Remotes</a></li>
+    <li><a href="11j-audio_over_ip.html">11.J. Audio Over IP</a></li>
+  </ul>
+</nav>
+<div class="edit-this-page"><a href="file:///home/hammer/ops_manual/operations_manual_source//antora/modules/ROOT/pages/11-news_sports_and_remotes/11j-audio_over_ip.adoc">Edit this Page</a></div>
+</div>
+  <div class="content">
+<article class="doc">
+<h1 class="page">11.J. Audio over IP (Linphone)</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Another option for bringing in a remote broadcast crew is using Linphone on the Audio over IP computer. Linphone is a
+Voice over IP client similar to (the now defunct) Skype.</p>
+</div>
+<div class="paragraph">
+<p>Linphone creates a high-quality audio connection over Internet connections. Linphone is available on the Audio over IP
+computer in Studio A. It is the right-hand computer on the left-hand counter top. For remote users, it is installed on
+both laptops and both iPads.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 30.7692%;">
+<col style="width: 15.3846%;">
+<col style="width: 7.6923%;">
+<col style="width: 30.7692%;">
+<col style="width: 15.3847%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Destinations<br>
+Long Name</th>
+<th class="tableblock halign-left valign-top">Destinations<br>
+Display Name</th>
+<th class="tableblock halign-left valign-top"></th>
+<th class="tableblock halign-left valign-top">Sources<br>
+Long Name</th>
+<th class="tableblock halign-left valign-top">Sources<br>
+Display Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top" colspan="5"><p class="tableblock"><strong>Audio over IP</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">To Audio over IP 1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">AoIP d</p></td>
+<td class="tableblock halign-left valign-top"></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">From Audio over IP 1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">AoIP s</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_11_j_1_receiving_a_call_on_linphone"><a class="anchor" href="#_11_j_1_receiving_a_call_on_linphone"></a>11.J.1. Receiving a Call on Linphone</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>For technical reasons, it is usually easier for the remote crew to place the call and for the studio to answer it.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Double-click on the <strong>"Linphone"</strong> icon on the desktop. The <strong>"Linphone"</strong> window will appear.</p>
+<div class="imageblock">
+<div class="content">
+<img src="../_images/common_color/common_license/11-news_sports_and_remotes/linphone_icon.png" alt="linphone icon">
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../_images/common_color/common_license/11-news_sports_and_remotes/linphone_home_screen.png" alt="linphone home screen">
+</div>
+</div>
+</li>
+<li>
+<p>Let the remote crew know (using a cell phone, text message, or Teams message) that you are ready for them to connect.</p>
+</li>
+<li>
+<p>A few seconds after the remote crew has placed the call, a black rounded window will pop up in the lower right-hand
+corner of the screen. The name of the caller should correspond to the device the remote crew is using. E.G. "Laptop #5"
+or "Sports iPad". Click the "Accept" button to take the call.</p>
+<div class="imageblock">
+<div class="content">
+<img src="../_images/common_color/common_license/11-news_sports_and_remotes/linphone_incoming_call.png" alt="linphone incoming call">
+</div>
+</div>
+</li>
+<li>
+<p>It may take a few seconds for the connection to fully establish and for audio to begin flowing between the studio and
+the remote site.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_11_j_2_placing_a_call_on_linphone"><a class="anchor" href="#_11_j_2_placing_a_call_on_linphone"></a>11.J.2. Placing a Call on Linphone</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Double-click on the Linphone icon on the desktop. The Linphone window will appear.</p>
+<div class="imageblock">
+<div class="content">
+<img src="../_images/common_color/common_license/11-news_sports_and_remotes/linphone_icon.png" alt="linphone icon">
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../_images/common_color/common_license/11-news_sports_and_remotes/linphone_home_screen.png" alt="linphone home screen">
+</div>
+</div>
+</li>
+<li>
+<p>Find out the address of the remote site. If the remote site is using one of WMUL-FM&#8217;s laptops or iPads, those accounts
+are in the contacts list. If you are at the remote site and are dialing back to the studio, the Audio Over IP computer
+will be the only contact in the contacts list.</p>
+</li>
+<li>
+<p>Select the contact in the contacts list.</p>
+</li>
+<li>
+<p>Wait for the remote crew to indicate (via cell phone, text message, or Teams message) that they are ready for you to
+connect.</p>
+</li>
+<li>
+<p>Click the "Call" button to begin connecting.</p>
+<div class="imageblock">
+<div class="content">
+<img src="../_images/common_color/common_license/11-news_sports_and_remotes/linphone_outgoing_call.png" alt="linphone outgoing call">
+</div>
+</div>
+</li>
+<li>
+<p>The remote crew will answer on their end.</p>
+</li>
+<li>
+<p>It may take a few seconds for the connection to fully establish and for audio to begin flowing between the studio and
+the remote site.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_11_j_3_troubleshooting_linphone_from_the_studio"><a class="anchor" href="#_11_j_3_troubleshooting_linphone_from_the_studio"></a>11.J.3. Troubleshooting Linphone (From the Studio)</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Remember that there can always be multiple problems and you need to tackle the problems one by one. Do not panic just
+because the problem was not fixed on the first attempt. Stay calm and work the problem.</p>
+</div>
+<div class="sect2">
+<h3 id="_11_j_3_a_they_cant_connect_checking_the_network_at_the_studio_end"><a class="anchor" href="#_11_j_3_a_they_cant_connect_checking_the_network_at_the_studio_end"></a>11.J.3.a. They Can&#8217;t Connect! (Checking the Network at the Studio End)</h3>
+<div class="paragraph">
+<p>If the remote crew is having trouble making a connection, the first thing to check is whether the Audio Over IP
+computer and Linphone can talk to the internet. (The Audio Over IP computer in Studio A runs Linux Mint, but the
+Laptops run Windows 11; therefore, some of the network icons will be different on each end.)</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>In the lower right-hand corner of the screen, check the network icon. If everything is connected, it should be an
+icon of a network jack.</p>
+<div class="imageblock">
+<div class="content">
+<img src="../_images/common_color/common_license/11-news_sports_and_remotes/linux_wired_network.png" alt="linux wired network">
+</div>
+</div>
+<div class="paragraph">
+<p>If there is no internet connection, it will be an icon of two arrows with an X.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../_images/common_color/common_license/11-news_sports_and_remotes/linux_no_network.png" alt="linux no network">
+</div>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>If there is no internet connection, try rebooting.</p>
+</li>
+<li>
+<p>If the problem persists, call the Operations Manager.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Inside Linphone, check the user icon in the upper right-hand corner of the screen. The colored dot in the lower
+right-hand corner is the status icon.</p>
+<div class="imageblock">
+<div class="content">
+<img src="../_images/common_color/common_license/11-news_sports_and_remotes/linphone_user_icon.png" alt="linphone user icon">
+</div>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>A green, yellow, or red icon of a dot indicates that Linphone is connected and accepting calls.</p>
+</li>
+<li>
+<p>A red icon of an exclaimation point inside a circle indicates that Linphone has been unable to connect to its
+servers.</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>Click the user icon and then the <strong>"Error"</strong> button. Linphone will re-try to connect.</p>
+<div class="imageblock">
+<div class="content">
+<img src="../_images/common_color/common_license/11-news_sports_and_remotes/linphone_user_menu.png" alt="linphone user menu">
+</div>
+</div>
+</li>
+<li>
+<p>Try closing and restarting Linphone. To close Linphone, you must click the kebab menu in the upper right-hand
+corner, to the right of the user icon, then select <strong>"Quit the App"</strong>. The <strong>"X"</strong> button in the upper right-hand corner
+only minimizes Linphone to the system tray.</p>
+<div class="imageblock">
+<div class="content">
+<img src="../_images/common_color/common_license/11-news_sports_and_remotes/linphone_menu.png" alt="linphone menu">
+</div>
+</div>
+</li>
+<li>
+<p>Try rebooting.</p>
+</li>
+<li>
+<p>If the problem persists, Linphone will not work today. You will need to switch to using the Access, Opal, or
+Gentner.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>A red icon of a dot with a white horizontal line across it indicates that Linphone is in "Do Not Disturb" mode. In
+this mode, Linphone will not ring on incoming calls.</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>Click the User menu, then change the <strong>"Do Not Disturb"</strong> setting to <strong>"Available"</strong>.</p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>If the remote site is still unable to connect, the problem is likely on the remote end.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_11_j_3_b_i_can_hear_the_remote_crew_but_they_cant_hear_me_audio_problemsstudio_end"><a class="anchor" href="#_11_j_3_b_i_can_hear_the_remote_crew_but_they_cant_hear_me_audio_problemsstudio_end"></a>11.J.3.b. I can hear the remote crew, but they can&#8217;t hear me! (Audio Problems&#8201;&#8212;&#8201;Studio End)</h3>
+<div class="paragraph">
+<p>Unfortunately, newer versions of Linphone do not provide meters to check the audio going in and out of the program.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Check the routing and the console:</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Check that the source for "AoIP d" is set to "A Phn 1s" (or whichever studio and phone module you are using).</p>
+</li>
+<li>
+<p>Check the SuperPhone module in the audio console. Make certain that it is turned off and the appropriate caller
+module (Phone 1 or Phone 2) is in cue.</p>
+</li>
+<li>
+<p>Make certain that the <strong>"TB"</strong> knob is turned up. It should usually be at about "6", but try turning it up.</p>
+</li>
+<li>
+<p>Make certain that <strong>"MXM Source"</strong> is set to <strong>"AUD"</strong>.</p>
+</li>
+<li>
+<p>Make certain that the Rivendell is in <strong>"PGM"</strong> and <strong>"AUD"</strong>.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>In the Linphone call window, click the kebab menu button down at the bottom, then <strong>"Settings"</strong>. The <strong>"Settings"</strong>
+window will appear on the right-hand side of the screen.</p>
+<div class="imageblock">
+<div class="content">
+<img src="../_images/common_color/common_license/11-news_sports_and_remotes/linphone_call_settings.png" alt="linphone call settings">
+</div>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p><strong>"Microphone"</strong> should be <strong>"PulseAudio: DSP56361 Digital &#8230;&#8203;"</strong>.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Try reconnecting.</p>
+</li>
+<li>
+<p>Try rebooting.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_11_j_3_c_the_remote_crew_can_hear_me_but_i_cant_hear_them_audio_problemsstudio_end"><a class="anchor" href="#_11_j_3_c_the_remote_crew_can_hear_me_but_i_cant_hear_them_audio_problemsstudio_end"></a>11.J.3.c. The remote crew can hear me, but I can&#8217;t hear them! (Audio Problems&#8201;&#8212;&#8201;Studio End)</h3>
+<div class="paragraph">
+<p>Unfortunately, newer versions of Linphone do not provide meters to check the audio going in and out of the program.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Check the routing and the console:</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Check that the source for "A Phn 1d" (or whichever studio and phone module you are using) is set to "AoIP s".</p>
+</li>
+<li>
+<p>Check the SuperPhone module in the audio console. Make certain that it is turned off and the appropriate caller
+module (Phone 1 or Phone 2) is in cue.</p>
+</li>
+<li>
+<p>Make certain that the <strong>"Cue"</strong> knob is turned up. It should usually be at about "5", but try turning it up.</p>
+</li>
+<li>
+<p>Make certain that the CR Microphones are all turned off.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>In the Linphone call window, click the kebab menu button down at the bottom, then <strong>"Settings"</strong>. The <strong>"Settings"</strong>
+window will appear on the right-hand side of the screen.</p>
+<div class="imageblock">
+<div class="content">
+<img src="../_images/common_color/common_license/11-news_sports_and_remotes/linphone_call_settings.png" alt="linphone call settings">
+</div>
+</div>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p><strong>"Speaker"</strong> should be <strong>"PulseAudio: DSP56361 Digital &#8230;&#8203;"</strong>.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Try reconnecting.</p>
+</li>
+<li>
+<p>Try rebooting.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_11_j_4_troubleshooting_linphone_from_the_remote_end"><a class="anchor" href="#_11_j_4_troubleshooting_linphone_from_the_remote_end"></a>11.J.4. Troubleshooting Linphone (From the Remote End)</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Remember that there can always be multiple problems and you need to tackle the problems one by one. Do not panic just
+because the problem was not fixed on the first attempt. Stay calm and work the problem.</p>
+</div>
+<div class="sect2">
+<h3 id="_11_j_4_a_we_cant_connect_checking_the_network_at_the_remote_end"><a class="anchor" href="#_11_j_4_a_we_cant_connect_checking_the_network_at_the_remote_end"></a>11.J.4.a. We Can&#8217;t Connect! (Checking the Network at the Remote End)</h3>
+<div class="paragraph">
+<p>Checking the network connection will depend on the device type (Windows Laptop, iPad, or other) and the network
+connection type (wired or WiFi). (The Audio Over IP computer in Studio A runs Linux Mint, but the Laptops run Windows
+11; therefore, some of the network icons will be different on each end.) This manual will only cover network
+troubleshooting for a Windows 11 Laptop or an iPad, because those are the two types of devices owned by WMUL&#8209;FM.</p>
+</div>
+<div class="sect3">
+<h4 id="_windows_laptopwifi"><a class="anchor" href="#_windows_laptopwifi"></a>Windows Laptop&#8201;&#8212;&#8201;WiFi</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>In the lower right-hand corner, click on the WiFi icon.</p>
+<div class="imageblock">
+<div class="content">
+<img src="../_images/common_color/common_license/11-news_sports_and_remotes/wifi_icon.png" alt="wifi icon">
+</div>
+</div>
+</li>
+<li>
+<p>Look at the WiFi settings icon. If WiFi is connected, it should be blue and list the name of the WiFi network below it.</p>
+<div class="imageblock">
+<div class="content">
+<img src="../_images/common_color/common_license/11-news_sports_and_remotes/wifi_settings_icon.png" alt="wifi settings icon">
+</div>
+</div>
+</li>
+<li>
+<p>Click the arrow to open the list of WiFi networks.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Make certain that you are connected to the expected network.</p>
+</li>
+<li>
+<p>Make certain that the network that you are connected to says <strong>"Connected, secured"</strong> and does not say anything like
+"no internet".</p>
+</li>
+<li>
+<p>Try disconnecting and reconnecting. MU WiFi sometimes makes internal changes that require everyone to reconnect.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Try rebooting.</p>
+</li>
+<li>
+<p>Find a network technician.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_windows_laptopwired_ethernet"><a class="anchor" href="#_windows_laptopwired_ethernet"></a>Windows Laptop&#8201;&#8212;&#8201;Wired Ethernet</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>In the lower right-hand corner of the screen, check the network icon. If everything is connected, it should be an
+icon of a computer monitor with a cable to the right side.</p>
+<div class="imageblock">
+<div class="content">
+<img src="../_images/common_color/common_license/11-news_sports_and_remotes/wired_icon.png" alt="wired icon">
+</div>
+</div>
+<div class="paragraph">
+<p>If there is no internet connection, it will be an icon of a globe with a slashed circle.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="../_images/common_color/common_license/11-news_sports_and_remotes/no_network_icon.png" alt="no network icon">
+</div>
+</div>
+</li>
+<li>
+<p>Check the network cable at both the laptop end and the wall end.</p>
+</li>
+<li>
+<p>Try a different cable.</p>
+</li>
+<li>
+<p>Try a different network jack.</p>
+</li>
+<li>
+<p>Try rebooting.</p>
+</li>
+<li>
+<p>Find a network technician.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_ipad"><a class="anchor" href="#_ipad"></a>iPad</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Press the home button to return to the desktop.</p>
+</li>
+<li>
+<p>Scroll through the home screens until you find the <strong>"Settings"</strong> app and click on it.</p>
+</li>
+<li>
+<p>Tap the <strong>"Wi-Fi"</strong> item on the left-hand side.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Make certain that you are connected to the expected network. There will be a blue checkmark to the left of the name.</p>
+</li>
+<li>
+<p>Try disconnecting and reconnecting. MU WiFi sometimes makes internal changes that require everyone to reconnect.</p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_11_j_4_b_i_can_hear_the_studio_but_they_cant_hear_me_audio_problemsremote_end"><a class="anchor" href="#_11_j_4_b_i_can_hear_the_studio_but_they_cant_hear_me_audio_problemsremote_end"></a>11.J.4.b. I can hear the studio, but they can&#8217;t hear me! (Audio Problems&#8201;&#8212;&#8201;Remote End)</h3>
+<div class="paragraph">
+<p>The exact steps to troubleshoot this problem will depend on which mixer you are using, which computer you are using, and
+which method you are using to connect the two.</p>
+</div>
+<div class="sect3">
+<h4 id="_tascam_mixcast"><a class="anchor" href="#_tascam_mixcast"></a>Tascam Mixcast</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Check that the microphones are turned up and unmuted.</p>
+</li>
+<li>
+<p>Check that the master L and R channels on the right side of the Mixcast screen have levels from your microphones.
+Mute everything else and check the levels from the microphones.</p>
+</li>
+<li>
+<p>Check the microphone pre-amps.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Tap the hamburger menu button to bring up the menu.</p>
+</li>
+<li>
+<p>Tap the first button that has a set of four icons: a microphone, a smartphone, a USB symbol, and a bluetooth
+symbol. The <strong>"Inputs"</strong> page will appear.</p>
+</li>
+<li>
+<p>Tap the button for the microphone. The <strong>"Level"</strong> page for that microphone will appear.</p>
+</li>
+<li>
+<p>Use the level control to adjust the pre-amp.</p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_ipad_and_tascam_mixcasthandsfree_trrs_cable"><a class="anchor" href="#_ipad_and_tascam_mixcasthandsfree_trrs_cable"></a>iPad and Tascam Mixcast&#8201;&#8212;&#8201;Handsfree TRRS Cable</h4>
+<div class="paragraph">
+<p>Unfortunately, the iPad version of the Linphone application does not have many user adjustable settings.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>In Linphone, make certain the <strong>&lt;Microphone&gt;</strong> icon in unmuted.</p>
+</li>
+<li>
+<p>Double-check that both ends of the handsfree TRRS cable are connected.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>One end should be plugged into the headphone jack on the end of iPad (bottom left-hand corner if the iPad is
+propped up in its stand).</p>
+</li>
+<li>
+<p>The other end should be connected to the <strong>"TRRS"</strong> jack on the back of the Mixcast. It has a smartphone icon above
+it and the label "(TRRS)" below it.</p>
+</li>
+<li>
+<p>The <strong>"Input Select"</strong> switch on the back of the Mixcast should be switched toward the Smartphone / TRRS jack.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Try unplugging and replugging the handsfree TRRS cable from both ends.</p>
+</li>
+<li>
+<p>Try rebooting the mixer.</p>
+</li>
+<li>
+<p>Try rebooting the iPad.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_ipad_and_tascam_mixcastbluetooth"><a class="anchor" href="#_ipad_and_tascam_mixcastbluetooth"></a>iPad and Tascam Mixcast&#8201;&#8212;&#8201;Bluetooth</h4>
+<div class="paragraph">
+<p>Unfortunately, the iPad version of the Linphone application does not have many user adjustable settings.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>In Linphone, make certain the <strong>&lt;Microphone&gt;</strong> icon in unmuted.</p>
+</li>
+<li>
+<p>Double-check that bluetooth is enabled and connected.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Press the home button to return to the home screen.</p>
+</li>
+<li>
+<p>Scroll through the home screens until you find the <strong>"Settings"</strong> app and tap on it.</p>
+</li>
+<li>
+<p>Tap the <strong>"Bluetooth"</strong> item on the left-hand side.</p>
+</li>
+<li>
+<p>Make certain that bluetooth is on.</p>
+</li>
+<li>
+<p>Check the list of <strong>"My Devices"</strong> and make certain that <strong>"TASCAM Mixcast"</strong> (or "Mixcast 2") is <strong>"Connected"</strong>.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Try rebooting the mixer.</p>
+</li>
+<li>
+<p>Try rebooting the iPad.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_laptop_and_tascam_mixcastusb"><a class="anchor" href="#_laptop_and_tascam_mixcastusb"></a>Laptop and Tascam Mixcast&#8201;&#8212;&#8201;USB</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>In Linphone, click the kebab menu button, then <strong>"Settings"</strong>.</p>
+</li>
+<li>
+<p><strong>"Microphone"</strong> should be "WASAPI: Microphone (Mixcast 4)".</p>
+</li>
+<li>
+<p>If the <strong>"Microphone (Mixcast 4)"</strong> option are missing, double-check the USB connection between the laptop and the
+Mixcast.</p>
+</li>
+<li>
+<p>Try unplugging and replugging the USB cable from both ends.</p>
+</li>
+<li>
+<p>Try rebooting the Mixcast.</p>
+</li>
+<li>
+<p>Try rebooting the laptop.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_laptop_and_yamaha_mg12xu_usb_mixer"><a class="anchor" href="#_laptop_and_yamaha_mg12xu_usb_mixer"></a>Laptop and Yamaha MG12XU USB Mixer</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Check that the microphones are turned up, unmuted, and in <strong>"ST"</strong> (Stereo).</p>
+</li>
+<li>
+<p>Check the microphone gain and compressor at the top of each channel.</p>
+</li>
+<li>
+<p>Check that the master <strong>"Stereo"</strong> channel is turned on and up.</p>
+</li>
+<li>
+<p>In Linphone, click the kebab menu button, then <strong>"Settings"</strong>.</p>
+</li>
+<li>
+<p><strong>"Microphone"</strong> should be <strong>"WASAPI: Line (MG-XU)"</strong>.</p>
+</li>
+<li>
+<p>If the <strong>"Line (MG-XU)"</strong> option is missing, double-check the USB connection between the laptop and the Yamaha.</p>
+</li>
+<li>
+<p>Try unplugging and replugging the USB cable from both ends.</p>
+</li>
+<li>
+<p>Try turning the mixer off and back on again.</p>
+</li>
+<li>
+<p>Try rebooting the laptop.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_11_j_4_c_the_studio_can_hear_me_but_i_cant_hear_them_audio_problemsremote_end"><a class="anchor" href="#_11_j_4_c_the_studio_can_hear_me_but_i_cant_hear_them_audio_problemsremote_end"></a>11.J.4.c. The studio can hear me, but I can&#8217;t hear them! (Audio Problems&#8201;&#8212;&#8201;Remote End)</h3>
+<div class="paragraph">
+<p>The exact steps to troubleshoot this problem will depend on which mixer you are using, which computer you are using, and
+which method you are using to connect the two.</p>
+</div>
+<div class="sect3">
+<h4 id="_ipad_and_tascam_mixcasthandsfree_trrs_cable_2"><a class="anchor" href="#_ipad_and_tascam_mixcasthandsfree_trrs_cable_2"></a>iPad and Tascam Mixcast&#8201;&#8212;&#8201;Handsfree TRRS Cable</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Make certain that the volume on the iPad is turned up. The volume buttons on the iPad are on the top, toward the
+left-hand side if the iPad is propped up in its stand.</p>
+</li>
+<li>
+<p>Tap the headphones / speaker / bluetooth button on the bottom right-hand corner of the screen.</p>
+</li>
+<li>
+<p>Select <strong>"Headphones"</strong>.</p>
+</li>
+<li>
+<p>Double-check that both ends of the handsfree TRRS cable are connected.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>One end should be plugged into the headphone jack on the end of iPad (bottom left-hand corner if the iPad is
+standing up in its case).</p>
+</li>
+<li>
+<p>The other end should be connected to the <strong>"(TRRS)"</strong> jack on the back of the Mixcast. It has a smartphone icon above
+it and the label "(TRRS)" below it.</p>
+</li>
+<li>
+<p>The <strong>"Input Select"</strong> switch on the back of the Mixcast should be switched toward the Smartphone / TRRS jack.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Try unplugging and replugging the handsfree TRRS cable from both ends.</p>
+</li>
+<li>
+<p>Check the smartphone channel on the Mixcast. Make certain that it is turned up and umuted.</p>
+</li>
+<li>
+<p>Check the input level of the smartphone channel.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Tap the hamburger menu button to bring up the menu.</p>
+</li>
+<li>
+<p>Tap the first button that has a set of four icons: a microphone, a smartphone, a USB symbol, and a bluetooth
+symbol. The <strong>"Inputs"</strong> page will appear.</p>
+</li>
+<li>
+<p>Tap the button for the smartphone. The <strong>"Level"</strong> page for the Smartphone input will appear.</p>
+</li>
+<li>
+<p>Use the level control to adjust the input level.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Try rebooting the Mixcast.</p>
+</li>
+<li>
+<p>Try rebooting the iPad.</p>
+</li>
+<li>
+<p>Reconnect when troubleshooting is complete.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_ipad_and_tascam_mixcastbluetooth_2"><a class="anchor" href="#_ipad_and_tascam_mixcastbluetooth_2"></a>iPad and Tascam Mixcast&#8201;&#8212;&#8201;Bluetooth</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Make certain that the volume on the iPad is turned up. The volume buttons on the iPad are on the top, toward the
+left-hand side if the iPad is propped up in its stand.</p>
+</li>
+<li>
+<p>Tap the headphones / speaker / bluetooth button on the bottom right-hand corner of the screen.</p>
+</li>
+<li>
+<p>Select <strong>"Bluetooth (Tascam Mixcast)"</strong> (or Mixcast 2).</p>
+</li>
+<li>
+<p>Double-check that bluetooth is enabled and connected.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Press the home button to return to the home screen.</p>
+</li>
+<li>
+<p>Scroll through the home screens until you find the <strong>"Settings"</strong> app and tap on it.</p>
+</li>
+<li>
+<p>Tap the <strong>"Bluetooth"</strong> item on the left-hand side.</p>
+</li>
+<li>
+<p>Make certain that bluetooth is on.</p>
+</li>
+<li>
+<p>Check the list of <strong>"My Devices"</strong> and make certain that <strong>"TASCAM Mixcast"</strong> (or "Mixcast 2") is <strong>"Connected"</strong>.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Check the bluetooth channel on the Mixcast. Make certain that it is turned up and umuted.</p>
+</li>
+<li>
+<p>Check the input level of the bluetooth channel.</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Tap the hamburger menu button to bring up the menu.</p>
+</li>
+<li>
+<p>Tap the first button that has a set of four icons: a microphone, a smartphone, a USB symbol, and a bluetooth
+symbol. The <strong>"Inputs"</strong> page will appear.</p>
+</li>
+<li>
+<p>Tap the button for the bluetooth. The <strong>"Level"</strong> page for the Bluetooth input will appear.</p>
+</li>
+<li>
+<p>Use the level control to adjust the input level.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Try rebooting the Mixcast.</p>
+</li>
+<li>
+<p>Try rebooting the iPad.</p>
+</li>
+<li>
+<p>Reconnect when troubleshooting is complete.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_laptop_and_tascam_mixcastusb_2"><a class="anchor" href="#_laptop_and_tascam_mixcastusb_2"></a>Laptop and Tascam Mixcast&#8201;&#8212;&#8201;USB</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>In Linphone, click the kebab menu button, then <strong>"Settings"</strong>.</p>
+</li>
+<li>
+<p><strong>"Speakers"</strong> should be <strong>"WASAPI: Speakers (Mixcast 4)"</strong>.</p>
+</li>
+<li>
+<p>If the <strong>"Speakers (Mixcast 4)"</strong> option is missing, double-check the USB connection between the laptop and the
+Mixcast.</p>
+</li>
+<li>
+<p>Try unplugging and replugging the USB cable from both ends.</p>
+</li>
+<li>
+<p>Try rebooting the Mixcast.</p>
+</li>
+<li>
+<p>Try rebooting the laptop.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_laptop_and_yamaha_mg12xu_usb_mixer_2"><a class="anchor" href="#_laptop_and_yamaha_mg12xu_usb_mixer_2"></a>Laptop and Yamaha MG12XU USB Mixer</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Check that the <strong>"USB In"</strong> channel on the mixer is on, up, and in <strong>"1-2"</strong> only (not in <strong>"ST"</strong>).</p>
+</li>
+<li>
+<p>Check that the <strong>"Line / USB"</strong> button just below the RCA jacks is set to <strong>"USB"</strong>.</p>
+</li>
+<li>
+<p>In Linphone, click the kebab menu button, then <strong>"Settings"</strong>.</p>
+</li>
+<li>
+<p><strong>"Speaker"</strong> should be <strong>"WASAPI: Line (MG-XU)"</strong>.</p>
+</li>
+<li>
+<p>If the <strong>"Line (MG-XU)"</strong> option is missing, double-check the USB connection between the laptop and the Yamaha.</p>
+</li>
+<li>
+<p>Try unplugging and replugging the USB cable from both ends.</p>
+</li>
+<li>
+<p>Try turning the Yamaha USB Mixer off and back on again.</p>
+</li>
+<li>
+<p>Try rebooting the laptop.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <div class="footer-thanks"><p>Authors: Charles G. Bailey, Ed.D., Mark DiIorio, and Michael Stanley</p></div>
+
+  <div class="footer-legal">
+    <img src="../../../_/img/by-nc-nd.png" alt="Creative Commons Logo" height="35" />
+
+    <p>This work is licensed under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons 
+    Attribution-NonCommercial-NoDerivatives 4.0 International License.</a></p>
+
+    <p>A version of this work with an Attribution-ShareAlike (BY-SA) license is available. That version has had certain 
+      logos and artistic photographs removed, but is complete in regards to instructional content. See 
+      <a href="https://www.marshall.edu/wmul/training-manuals/">WMUL-FM's website.</a></p>
+
+    <p>This page was built using the <a href="https://gitlab.com/antora/antora-ui-default">Antora default UI</a> with 
+      modifications from the <a href="https://github.com/neo4j-documentation/docs-ui">Neo4j Documentation UI</a> and 
+      <a href="https://github.com/asciidoctor/asciidoctor-docs-ui">Asciidoctor Docs UI</a>.</p>
+    <p>The <a href="https://github.com/WMUL-FM/operations_manual_ui">source code for this UI</a> is licensed under the 
+    terms of the MPL-2.0 license.
+  </div>
+</footer>
+<script id="site-script" src="../../../_/js/site.js" data-ui-root-path="../../../_"></script>
+<script src="../../../_/js/external-links.js"></script>
+<script async src="../../../_/js/vendor/highlight.js"></script>
+<script async src="../../../_/js/vendor/image-zoom.js"></script>
+  </body>
+</html>
